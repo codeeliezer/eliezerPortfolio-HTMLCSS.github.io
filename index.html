@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eliezer's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cda13346ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+     <nav>
+      <h2>PORTFOLIO</h2>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+     </nav>
+      <div class="header-text">
+      <p>Full Stack Web Developer</p>
+      <h1>Hi, I'm <span>Eliezer Bañares</span><br> From Philippines</h1>
+      </div>
+    </div>
+  </div>
+<!-- --------------------------------About Me--------------------------------------- -->
+  <div id="about">
+    <div class="container">
+     <div class="row">
+      <div class="about-col-1">
+            <img src="images/images.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>An entry level Web Developer that have good basic fundamentals in HTML, CSS, JAVACRIPT, PHP, REACTJS and MYSQL. Always EAGER to learn, have POSITIVE attitude, a TEAMPLAYER and can ADOPT in any kind of environment.
+        </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education </p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Frontend</span><br>HTMl, CSS and Javascript</li>
+            <li><span>Backend</span><br>Reactjs, nodejs, PHP</li>
+            <li><span>Soft Skills</span><br>Positive Attitude,  Hardworking, Team-player, Flexible, Trustworthy</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Safety Officer II, CCTV Installer</span><br>GIG Marketing And Electronic Services<br>May 2023 -  Present</li>
+            <li><span>Fire Inspector, FDAS Technician</span><br>Dole Philippines Incorporated<br>May 2020 - Oct 2021</li>
+            <li><span>Factory Worker</span><br>Dole Philippines Incorporated<br>Aug 2014 - Aug 2016</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Full Stack Web Developer</span><br>KodeGo<br>December 2022 - April 2023</li>
+            <li><span>Bachelor of Science in Accounting Technology</span><br>GenSantos Foundation Inc.<br>June 2012 - July 2014</li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+  <!-- ------------------------------SERVICES----------------------------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Frontend</h2>
+          <p>Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website</p>
+          <a href="https://resources.workable.com/front-end-developer-job-description">Learn more</a>
+        </div>
+        <div>
+          <h2>Backend</h2>
+          <p>Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.</p>
+          <a href="https://www.coursera.org/articles/back-end-developer">Learn more</a>
+        </div>
+        <div>
+          <h2>Database</h2>
+          <p>Databases are structured to facilitate the storage, retrieval, modification, and deletion of data in conjunction with various data-processing operations. A database management system (DBMS) extracts information from the database in response to queries.</p>
+          <a href="https://www.britannica.com/technology/database">Learn more</a>
+        </div>
+      </div>
+      <a href="#" class="btn"> See More</a>
+    </div>
+  </div>
+<!-- ------------------------ACHIEVEMENTS------------------------------------- -->
+ <div id="achievements">
+  <div class="container">
+    <h1 class="sub-title">My Certificates</h1>
+    <div class="certificate-list">
+      <div class="certificate">
+        <img src="images/cert1.jpg" >
+        <div class="layer">
+          <h3>Electrical Installation and Maintenance</h3>
+          <p>To put it simply, electrical installation and maintenance is the process of installing and maintaining electrical systems and equipment. It may include tasks such as installing wiring, repairing or replacing damaged equipment, and inspecting electrical systems for safety.</p>
+        </div>
+      </div>
+      <div class="certificate">
+        <img src="images/cert3.jpg">
+        <div class="layer">
+          <h3>Construction Occupational Safety And Health</h3>
+          <p>COSH Training is one of the 40-hour mandatory training for all safety officers in the construction industry. As required by the Occupational Safety and Health Standards and DOLE Department Order 13, a sufficient number of trained safety officers must be employed by all construction companies. The required number of safety officers depends on the number of workers for every shift</p>
+        </div>
+      </div>
+      <div class="certificate">
+        <img src="images/cert2.jpg">
+        <div class="layer">
+          <h3>Heavy Equipment Operation on Wheel Loader</h3>
+          <p>A wheel loader uses an arm to lift and lower its bucket, and a bell crank is used to open and close its bucket. Wheel loaders can lift almost anything such as debris, gravel, soil, dirt, pallets, etc. Since it uses wheels, it has better mobility on roads, and it does not give any damage to asphalt or concrete.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn"> See More</a>
+  </div>
+ </div>
+
+<!-- ----------------------------- CONTACT-------------- -------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>  banareseliezer@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>  +63 907 437 9753</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100091936823330"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/eliezer-ba%C3%B1ares-6854b9222/"><i class="fa-brands fa-linkedin"></i></i></a>
+          <a href="https://github.com/codeeliezer"><i class="fa-brands fa-square-github"></i></i></a>
+        </div>
+        <a href="" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Messege" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Eliezer. Made with <i class="fa-solid fa-heart"></i></p>
+  </div>
+</div>
+
+
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+</script>
+
+
+</body>
+</html>
